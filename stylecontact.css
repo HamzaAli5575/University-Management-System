@@ -1,0 +1,124 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body 
+{
+  background-image: url(navbar.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 12vh;
+  width: 100%;
+}
+
+.navbar 
+{
+  width: 85%;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.LOGO 
+{
+  width: 80px;
+  cursor: grab;
+
+}
+
+.navbar ul li 
+{
+  display: inline-block;
+  list-style: none;
+  margin: 0 30px;
+  position: relative;
+}
+
+.navbar ul li a 
+{
+  text-decoration: none;
+  color: rgb(19, 37, 119);
+  font-size: 20px;
+  font-style: italic;
+}
+
+.navbar ul li::after 
+{
+  content: "";
+  height: 2px;
+  width: 0%;
+  background: #28114e;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: 0.4s;
+}
+
+.navbar ul li:hover::after 
+{
+  width: 100%;
+}
+.navbar ul li a:hover 
+{
+  text-decoration: wavy;
+}
+
+.data
+{
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  color: rgb(5, 5, 5);
+  
+}
+
+.h1
+{
+  padding: 0px;
+  color:#28114e;
+  cursor: cell;
+  text-shadow: 1px 2px 3px darkblue;
+   font-size: 40px;
+  
+}
+
+.p1
+{
+  text-align: justify;
+  font-size: larger;
+  background:lightgrey;
+  color: rgb(0, 0, 0);
+  border: solid 1px black;
+  float:none;
+ padding: 15px;
+ margin: 5px;
+}
+
+.p2
+{
+  border: solid 1px black;
+  text-align: center;
+  font-size: larger;
+  background:lightgrey;
+  color: rgb(0, 0, 0);
+  float:none;
+  padding: 15px;
+  margin: 5px;
+}
+
+footer 
+{
+clear: both;
+padding: 0 15px;
+}
+p 
+{
+padding: 0;
+text-align: justify;
+}
